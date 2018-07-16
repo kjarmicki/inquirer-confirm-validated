@@ -1,0 +1,28 @@
+{
+  "name": "inquirer-confirm-validated",
+  "version": "1.0.0",
+  "description": "Inquirer confirm prompt with validation",
+  "main": "index.js",
+  "scripts": {
+    "test:manual": "node test/manual",
+    "test:manual:debug": "node --inspect-brk test/manual"
+  },
+  "keywords": [
+    "inquirer",
+    "confirm"
+  ],
+  "author": "Krystian Jarmicki",
+  "license": "MIT",
+  "peerDependencies": {
+    "inquirer": "^6.0.0"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "inquirer": "6.0.0",
+    "rxjs": "6.2.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.9.7",
+    "typescript": "2.9.2"
+  }
+}
